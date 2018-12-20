@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71C30A5121CC164D00004F17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C30A5021CC164D00004F17 /* main.cpp */; };
+		71C30A5B21CC165B00004F17 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C30A5921CC165B00004F17 /* IOKit.framework */; };
+		71C30A5F21CC167A00004F17 /* libconcert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C30A5E21CC167A00004F17 /* libconcert.a */; };
+		71C30A6321CC169100004F17 /* libilocplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C30A6021CC169100004F17 /* libilocplex.a */; };
+		71C30A6421CC169100004F17 /* libcplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C30A6121CC169100004F17 /* libcplex.a */; };
+		71C30A6521CC169100004F17 /* libcplexdistmip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C30A6221CC169100004F17 /* libcplexdistmip.a */; };
+		71FBBA0D21CC17E700AE6902 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FBBA0C21CC17E700AE6902 /* CoreFoundation.framework */; };
+		71FBBA2821CC19D900AE6902 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBA2121CC19D900AE6902 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +30,21 @@
 
 /* Begin PBXFileReference section */
 		71C30A4D21CC164D00004F17 /* Column_Generation_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Column_Generation_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		71C30A5021CC164D00004F17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		71C30A5821CC165B00004F17 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		71C30A5921CC165B00004F17 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		71C30A5C21CC166A00004F17 /* static_pic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static_pic; path = "../../../../../Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic"; sourceTree = "<group>"; };
+		71C30A5E21CC167A00004F17 /* libconcert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconcert.a; path = "../../../../../Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic/libconcert.a"; sourceTree = "<group>"; };
+		71C30A6021CC169100004F17 /* libilocplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilocplex.a; path = "../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libilocplex.a"; sourceTree = "<group>"; };
+		71C30A6121CC169100004F17 /* libcplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplex.a; path = "../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libcplex.a"; sourceTree = "<group>"; };
+		71C30A6221CC169100004F17 /* libcplexdistmip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplexdistmip.a; path = "../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libcplexdistmip.a"; sourceTree = "<group>"; };
+		71FBBA0C21CC17E700AE6902 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		71FBBA2121CC19D900AE6902 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		71FBBA2221CC19D900AE6902 /* mcf_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcf_data.h; sourceTree = "<group>"; };
+		71FBBA2321CC19D900AE6902 /* spp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spp.h; sourceTree = "<group>"; };
+		71FBBA2421CC19D900AE6902 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		71FBBA2521CC19D900AE6902 /* pathpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathpool.h; sourceTree = "<group>"; };
+		71FBBA2621CC19D900AE6902 /* binheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binheap.h; sourceTree = "<group>"; };
+		71FBBA2721CC19D900AE6902 /* pathflow_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathflow_model.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FBBA0D21CC17E700AE6902 /* CoreFoundation.framework in Frameworks */,
+				71C30A6321CC169100004F17 /* libilocplex.a in Frameworks */,
+				71C30A6421CC169100004F17 /* libcplex.a in Frameworks */,
+				71C30A6521CC169100004F17 /* libcplexdistmip.a in Frameworks */,
+				71C30A5F21CC167A00004F17 /* libconcert.a in Frameworks */,
+				71C30A5B21CC165B00004F17 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +69,7 @@
 			children = (
 				71C30A4F21CC164D00004F17 /* Column_Generation_Algorithm */,
 				71C30A4E21CC164D00004F17 /* Products */,
+				71C30A5721CC165B00004F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +84,30 @@
 		71C30A4F21CC164D00004F17 /* Column_Generation_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				71C30A5021CC164D00004F17 /* main.cpp */,
+				71FBBA2621CC19D900AE6902 /* binheap.h */,
+				71FBBA2421CC19D900AE6902 /* data */,
+				71FBBA2221CC19D900AE6902 /* mcf_data.h */,
+				71FBBA2121CC19D900AE6902 /* main.cpp */,
+				71FBBA2721CC19D900AE6902 /* pathflow_model.h */,
+				71FBBA2521CC19D900AE6902 /* pathpool.h */,
+				71FBBA2321CC19D900AE6902 /* spp.h */,
 			);
 			path = Column_Generation_Algorithm;
+			sourceTree = "<group>";
+		};
+		71C30A5721CC165B00004F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71FBBA0C21CC17E700AE6902 /* CoreFoundation.framework */,
+				71C30A6121CC169100004F17 /* libcplex.a */,
+				71C30A6221CC169100004F17 /* libcplexdistmip.a */,
+				71C30A6021CC169100004F17 /* libilocplex.a */,
+				71C30A5E21CC167A00004F17 /* libconcert.a */,
+				71C30A5C21CC166A00004F17 /* static_pic */,
+				71C30A5821CC165B00004F17 /* CoreAudioKit.framework */,
+				71C30A5921CC165B00004F17 /* IOKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C30A5121CC164D00004F17 /* main.cpp in Sources */,
+				71FBBA2821CC19D900AE6902 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +288,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio128/concert/include,
+					/Applications/CPLEX_Studio128/cplex/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +305,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio128/concert/include,
+					/Applications/CPLEX_Studio128/cplex/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio128/concert/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
