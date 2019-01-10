@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		719A287221CFC29300219DFA /* tiny-data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "tiny-data"; sourceTree = "<group>"; };
 		71C30A4D21CC164D00004F17 /* Column_Generation_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Column_Generation_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C30A5821CC165B00004F17 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
 		71C30A5921CC165B00004F17 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -39,12 +40,12 @@
 		71C30A6221CC169100004F17 /* libcplexdistmip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplexdistmip.a; path = "../../../../../Applications/CPLEX_Studio128/cplex/lib/x86-64_osx/static_pic/libcplexdistmip.a"; sourceTree = "<group>"; };
 		71FBBA0C21CC17E700AE6902 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		71FBBA2121CC19D900AE6902 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		71FBBA2221CC19D900AE6902 /* mcf_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mcf_data.h; sourceTree = "<group>"; };
+		71FBBA2221CC19D900AE6902 /* mcf_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = mcf_data.h; sourceTree = "<group>"; };
 		71FBBA2321CC19D900AE6902 /* spp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spp.h; sourceTree = "<group>"; };
 		71FBBA2421CC19D900AE6902 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
-		71FBBA2521CC19D900AE6902 /* pathpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathpool.h; sourceTree = "<group>"; };
-		71FBBA2621CC19D900AE6902 /* binheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binheap.h; sourceTree = "<group>"; };
-		71FBBA2721CC19D900AE6902 /* pathflow_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathflow_model.h; sourceTree = "<group>"; };
+		71FBBA2521CC19D900AE6902 /* pathpool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = pathpool.h; sourceTree = "<group>"; };
+		71FBBA2621CC19D900AE6902 /* binheap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = binheap.h; sourceTree = "<group>"; };
+		71FBBA2721CC19D900AE6902 /* pathflow_model.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = pathflow_model.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 				71FBBA2421CC19D900AE6902 /* data */,
 				71FBBA2221CC19D900AE6902 /* mcf_data.h */,
 				71FBBA2121CC19D900AE6902 /* main.cpp */,
+				719A287221CFC29300219DFA /* tiny-data */,
 				71FBBA2721CC19D900AE6902 /* pathflow_model.h */,
 				71FBBA2521CC19D900AE6902 /* pathpool.h */,
 				71FBBA2321CC19D900AE6902 /* spp.h */,
