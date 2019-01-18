@@ -53,7 +53,7 @@ public:
         nNode = 0;
         nArcs = 0;
         nComm = 0;
-        bigM = 1000000;
+        bigM = 10000000;
         ProbName = "";
 
         for (int i = 0; i<nNode; i++) {

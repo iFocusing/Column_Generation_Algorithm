@@ -95,7 +95,7 @@ int main() {
     IloEnv env;
     mcfdata mcf;
     // read data
-    bool b = mcf.read("data/planar/planar150.dat");
+    bool b = mcf.read("data/grid/grid12.dat");
 //    bool b = mcf.read("tiny-data/tiny.dat");
     if(b){
         std::cout << "read succussful: "<< mcf.nNode << std::endl;
@@ -107,8 +107,8 @@ int main() {
     binheap h(mcf.nNode);
     mcfgraph g(mcf.nNode, mcf.nArcs);
     g.fstar(mcf);
-    int maxpaths = 1000000;  // calculate the maxpaths from mcf.nNode.
-    int maxarcs = 1000000;
+    int maxpaths = 1000000000;  // calculate the maxpaths from mcf.nNode.
+    int maxarcs = 1000000000;
     mcfpaths p_pool(maxpaths, maxarcs);
     IloCplex solver(pathflow.model);
     int first = p_pool.nPaths;

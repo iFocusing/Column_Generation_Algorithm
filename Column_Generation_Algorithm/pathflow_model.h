@@ -145,7 +145,7 @@ public:
     void print_solution(const mcfdata mcf, int status) {
          //        std::ofstream sol(mcf.ProbName + ".sol");
          //        if (sol.is_open()) sol.close();
-        std::cout << "pathflow.bestobj: " << bestobj << std::endl;
+        std::cout << "pathflow.bestobj: " << std::setprecision(10) << bestobj << std::endl;
 //        for (int i = 0; i < PFlowVariables.getSize(); i++) {
 //            std::cout << PFlowVariables[i] << PFlowVariableValues[i] << " ";
 //        }
